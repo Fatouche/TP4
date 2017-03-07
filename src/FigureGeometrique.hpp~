@@ -1,0 +1,14 @@
+#ifndef FIGUREGEOMETRIQUE_HPP
+#define FIGUREGEOMETRIQUE_HPP
+
+#include "Couleur.hpp"
+
+struct FigureGeometrique{
+  Couleur _couleur;
+
+  FigureGeometrique(const Couleur & couleur);
+  Couleur getCouleur() const;
+  
+};
+
+#endif
