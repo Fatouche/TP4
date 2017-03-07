@@ -4,7 +4,7 @@
 #include "Couleur.hpp"
 
 class  FigureGeometrique{
-private :
+protected :
   Couleur _couleur;
 public :
   FigureGeometrique(const Couleur & couleur);

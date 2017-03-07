@@ -1,21 +1,24 @@
 #include "Ligne.hpp"
+#include "Couleur.hpp"
+#include "FigureGeometrique.hpp"
+#include <iostream>
 
 Ligne::Ligne(const Couleur & couleur, const Point & p0, const Point & p1) :
-  FigureGeometrique(couleur), _p0(po), _p1(p1)
+  FigureGeometrique(couleur), _p0(p0), _p1(p1)
 {}
 
-Ligne::void afficher(){
+void Ligne::afficher(){
 
-  std::cout << "Ligne " <<  _r << "_" <<
-    _g << "_" << _b << " " << p0._x << "_" <<
-    p0._y << " " << p1._x << "_" << p1._y << std::endl;
+  std::cout << "Ligne " <<  _couleur._r << "_" <<
+    _couleur._g << "_" << _couleur._b << " " << _p0._x << "_" <<
+    _p0._y << " " << _p1._x << "_" << _p1._y << std::endl;
   
 }
 
-Ligne::Point getP0(){
+Point Ligne::getP0(){
   return _p0;
 }
 
-Ligne::Point getP1(){
+Point Ligne::getP1(){
   return _p1;
 }
