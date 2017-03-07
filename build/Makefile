@@ -110,6 +110,46 @@ depend:
 	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+#=============================================================================
+# Target rules for targets named main_test.out
+
+# Build rule for target.
+main_test.out: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main_test.out
+.PHONY : main_test.out
+
+# fast build rule for target.
+main_test.out/fast:
+	$(MAKE) -f CMakeFiles/main_test.out.dir/build.make CMakeFiles/main_test.out.dir/build
+.PHONY : main_test.out/fast
+
+src/main_test.o: src/main_test.cpp.o
+
+.PHONY : src/main_test.o
+
+# target to build an object file
+src/main_test.cpp.o:
+	$(MAKE) -f CMakeFiles/main_test.out.dir/build.make CMakeFiles/main_test.out.dir/src/main_test.cpp.o
+.PHONY : src/main_test.cpp.o
+
+src/main_test.i: src/main_test.cpp.i
+
+.PHONY : src/main_test.i
+
+# target to preprocess a source file
+src/main_test.cpp.i:
+	$(MAKE) -f CMakeFiles/main_test.out.dir/build.make CMakeFiles/main_test.out.dir/src/main_test.cpp.i
+.PHONY : src/main_test.cpp.i
+
+src/main_test.s: src/main_test.cpp.s
+
+.PHONY : src/main_test.s
+
+# target to generate assembly for a file
+src/main_test.cpp.s:
+	$(MAKE) -f CMakeFiles/main_test.out.dir/build.make CMakeFiles/main_test.out.dir/src/main_test.cpp.s
+.PHONY : src/main_test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -118,6 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... main_test.out"
+	@echo "... src/main_test.o"
+	@echo "... src/main_test.i"
+	@echo "... src/main_test.s"
 .PHONY : help
 
 

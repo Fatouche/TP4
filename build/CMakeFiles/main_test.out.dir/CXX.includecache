@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/giovanny/Documents/C++/TP4/src/Couleur.hpp
+
+/home/giovanny/Documents/C++/TP4/src/FigureGeometrique.hpp
+Couleur.hpp
+/home/giovanny/Documents/C++/TP4/src/Couleur.hpp
+
+/home/giovanny/Documents/C++/TP4/src/Point.hpp
+
+/home/giovanny/Documents/C++/TP4/src/main_test.cpp
+Point.hpp
+/home/giovanny/Documents/C++/TP4/src/Point.hpp
+Couleur.hpp
+/home/giovanny/Documents/C++/TP4/src/Couleur.hpp
+FigureGeometrique.hpp
+/home/giovanny/Documents/C++/TP4/src/FigureGeometrique.hpp
+iostream
+-
+
