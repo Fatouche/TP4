@@ -123,6 +123,60 @@ main_test.out/fast:
 	$(MAKE) -f CMakeFiles/main_test.out.dir/build.make CMakeFiles/main_test.out.dir/build
 .PHONY : main_test.out/fast
 
+src/FigureGeometrique.o: src/FigureGeometrique.cpp.o
+
+.PHONY : src/FigureGeometrique.o
+
+# target to build an object file
+src/FigureGeometrique.cpp.o:
+	$(MAKE) -f CMakeFiles/main_test.out.dir/build.make CMakeFiles/main_test.out.dir/src/FigureGeometrique.cpp.o
+.PHONY : src/FigureGeometrique.cpp.o
+
+src/FigureGeometrique.i: src/FigureGeometrique.cpp.i
+
+.PHONY : src/FigureGeometrique.i
+
+# target to preprocess a source file
+src/FigureGeometrique.cpp.i:
+	$(MAKE) -f CMakeFiles/main_test.out.dir/build.make CMakeFiles/main_test.out.dir/src/FigureGeometrique.cpp.i
+.PHONY : src/FigureGeometrique.cpp.i
+
+src/FigureGeometrique.s: src/FigureGeometrique.cpp.s
+
+.PHONY : src/FigureGeometrique.s
+
+# target to generate assembly for a file
+src/FigureGeometrique.cpp.s:
+	$(MAKE) -f CMakeFiles/main_test.out.dir/build.make CMakeFiles/main_test.out.dir/src/FigureGeometrique.cpp.s
+.PHONY : src/FigureGeometrique.cpp.s
+
+src/Ligne.o: src/Ligne.cpp.o
+
+.PHONY : src/Ligne.o
+
+# target to build an object file
+src/Ligne.cpp.o:
+	$(MAKE) -f CMakeFiles/main_test.out.dir/build.make CMakeFiles/main_test.out.dir/src/Ligne.cpp.o
+.PHONY : src/Ligne.cpp.o
+
+src/Ligne.i: src/Ligne.cpp.i
+
+.PHONY : src/Ligne.i
+
+# target to preprocess a source file
+src/Ligne.cpp.i:
+	$(MAKE) -f CMakeFiles/main_test.out.dir/build.make CMakeFiles/main_test.out.dir/src/Ligne.cpp.i
+.PHONY : src/Ligne.cpp.i
+
+src/Ligne.s: src/Ligne.cpp.s
+
+.PHONY : src/Ligne.s
+
+# target to generate assembly for a file
+src/Ligne.cpp.s:
+	$(MAKE) -f CMakeFiles/main_test.out.dir/build.make CMakeFiles/main_test.out.dir/src/Ligne.cpp.s
+.PHONY : src/Ligne.cpp.s
+
 src/main_test.o: src/main_test.cpp.o
 
 .PHONY : src/main_test.o
@@ -159,6 +213,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main_test.out"
+	@echo "... src/FigureGeometrique.o"
+	@echo "... src/FigureGeometrique.i"
+	@echo "... src/FigureGeometrique.s"
+	@echo "... src/Ligne.o"
+	@echo "... src/Ligne.i"
+	@echo "... src/Ligne.s"
 	@echo "... src/main_test.o"
 	@echo "... src/main_test.i"
 	@echo "... src/main_test.s"
