@@ -1078,6 +1078,10 @@ CMakeFiles/main.out.dir/src/ViewerFigures.cpp.o: /usr/lib/x86_64-linux-gnu/sigc+
 
 CMakeFiles/main.out.dir/src/ZoneDessin.cpp.o: ../src/Couleur.hpp
 CMakeFiles/main.out.dir/src/ZoneDessin.cpp.o: ../src/FigureGeometrique.hpp
+CMakeFiles/main.out.dir/src/ZoneDessin.cpp.o: ../src/Ligne.hpp
+CMakeFiles/main.out.dir/src/ZoneDessin.cpp.o: ../src/Point.hpp
+CMakeFiles/main.out.dir/src/ZoneDessin.cpp.o: ../src/PolygoneRegulier.hpp
+CMakeFiles/main.out.dir/src/ZoneDessin.cpp.o: ../src/ViewerFigures.hpp
 CMakeFiles/main.out.dir/src/ZoneDessin.cpp.o: ../src/ZoneDessin.cpp
 CMakeFiles/main.out.dir/src/ZoneDessin.cpp.o: ../src/ZoneDessin.hpp
 CMakeFiles/main.out.dir/src/ZoneDessin.cpp.o: /usr/include/atk-1.0/atk/atk-enum-types.h
@@ -2137,7 +2141,10 @@ CMakeFiles/main.out.dir/src/ZoneDessin.cpp.o: /usr/lib/x86_64-linux-gnu/gtkmm-2.
 CMakeFiles/main.out.dir/src/ZoneDessin.cpp.o: /usr/lib/x86_64-linux-gnu/pangomm-1.4/include/pangommconfig.h
 CMakeFiles/main.out.dir/src/ZoneDessin.cpp.o: /usr/lib/x86_64-linux-gnu/sigc++-2.0/include/sigc++config.h
 
+CMakeFiles/main.out.dir/src/main.cpp.o: ../src/Couleur.hpp
+CMakeFiles/main.out.dir/src/main.cpp.o: ../src/FigureGeometrique.hpp
 CMakeFiles/main.out.dir/src/main.cpp.o: ../src/ViewerFigures.hpp
+CMakeFiles/main.out.dir/src/main.cpp.o: ../src/ZoneDessin.hpp
 CMakeFiles/main.out.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/main.out.dir/src/main.cpp.o: /usr/include/atk-1.0/atk/atk-enum-types.h
 CMakeFiles/main.out.dir/src/main.cpp.o: /usr/include/atk-1.0/atk/atk.h

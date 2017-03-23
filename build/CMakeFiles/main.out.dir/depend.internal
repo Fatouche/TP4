@@ -1079,6 +1079,10 @@ CMakeFiles/main.out.dir/src/ViewerFigures.cpp.o
 CMakeFiles/main.out.dir/src/ZoneDessin.cpp.o
  /home/giovanny/Documents/C++/TP5/src/Couleur.hpp
  /home/giovanny/Documents/C++/TP5/src/FigureGeometrique.hpp
+ /home/giovanny/Documents/C++/TP5/src/Ligne.hpp
+ /home/giovanny/Documents/C++/TP5/src/Point.hpp
+ /home/giovanny/Documents/C++/TP5/src/PolygoneRegulier.hpp
+ /home/giovanny/Documents/C++/TP5/src/ViewerFigures.hpp
  /home/giovanny/Documents/C++/TP5/src/ZoneDessin.cpp
  /home/giovanny/Documents/C++/TP5/src/ZoneDessin.hpp
  /usr/include/atk-1.0/atk/atk-enum-types.h
@@ -2138,7 +2142,10 @@ CMakeFiles/main.out.dir/src/ZoneDessin.cpp.o
  /usr/lib/x86_64-linux-gnu/pangomm-1.4/include/pangommconfig.h
  /usr/lib/x86_64-linux-gnu/sigc++-2.0/include/sigc++config.h
 CMakeFiles/main.out.dir/src/main.cpp.o
+ /home/giovanny/Documents/C++/TP5/src/Couleur.hpp
+ /home/giovanny/Documents/C++/TP5/src/FigureGeometrique.hpp
  /home/giovanny/Documents/C++/TP5/src/ViewerFigures.hpp
+ /home/giovanny/Documents/C++/TP5/src/ZoneDessin.hpp
  /home/giovanny/Documents/C++/TP5/src/main.cpp
  /usr/include/atk-1.0/atk/atk-enum-types.h
  /usr/include/atk-1.0/atk/atk.h

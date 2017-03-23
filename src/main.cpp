@@ -1,5 +1,6 @@
 #include <gtkmm.h>
 #include "ViewerFigures.hpp"
+#include "ZoneDessin.hpp"
 
 int main(int argc, char* argv[]){
 

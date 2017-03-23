@@ -63,6 +63,14 @@ gtkmm.h
 /home/giovanny/Documents/C++/TP5/src/ZoneDessin.cpp
 ZoneDessin.hpp
 /home/giovanny/Documents/C++/TP5/src/ZoneDessin.hpp
+Point.hpp
+/home/giovanny/Documents/C++/TP5/src/Point.hpp
+Ligne.hpp
+/home/giovanny/Documents/C++/TP5/src/Ligne.hpp
+Couleur.hpp
+/home/giovanny/Documents/C++/TP5/src/Couleur.hpp
+PolygoneRegulier.hpp
+/home/giovanny/Documents/C++/TP5/src/PolygoneRegulier.hpp
 
 /home/giovanny/Documents/C++/TP5/src/ZoneDessin.hpp
 gtkmm.h
@@ -71,12 +79,16 @@ vector
 -
 FigureGeometrique.hpp
 /home/giovanny/Documents/C++/TP5/src/FigureGeometrique.hpp
+ViewerFigures.hpp
+/home/giovanny/Documents/C++/TP5/src/ViewerFigures.hpp
 
 /home/giovanny/Documents/C++/TP5/src/main.cpp
 gtkmm.h
 -
 ViewerFigures.hpp
 /home/giovanny/Documents/C++/TP5/src/ViewerFigures.hpp
+ZoneDessin.hpp
+/home/giovanny/Documents/C++/TP5/src/ZoneDessin.hpp
 
 /usr/include/atk-1.0/atk/atk-enum-types.h
 atk/atkversion.h
