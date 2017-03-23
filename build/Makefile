@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/giovanny/Documents/C++/TP4
+CMAKE_SOURCE_DIR = /home/giovanny/Documents/C++/TP5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/giovanny/Documents/C++/TP4/build
+CMAKE_BINARY_DIR = /home/giovanny/Documents/C++/TP5/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/giovanny/Documents/C++/TP4/build/CMakeFiles /home/giovanny/Documents/C++/TP4/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/giovanny/Documents/C++/TP5/build/CMakeFiles /home/giovanny/Documents/C++/TP5/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/giovanny/Documents/C++/TP4/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/giovanny/Documents/C++/TP5/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main_test.out
+# Target rules for targets named main.out
 
 # Build rule for target.
-main_test.out: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 main_test.out
-.PHONY : main_test.out
+main.out: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main.out
+.PHONY : main.out
 
 # fast build rule for target.
-main_test.out/fast:
-	$(MAKE) -f CMakeFiles/main_test.out.dir/build.make CMakeFiles/main_test.out.dir/build
-.PHONY : main_test.out/fast
+main.out/fast:
+	$(MAKE) -f CMakeFiles/main.out.dir/build.make CMakeFiles/main.out.dir/build
+.PHONY : main.out/fast
 
 src/FigureGeometrique.o: src/FigureGeometrique.cpp.o
 
@@ -129,7 +129,7 @@ src/FigureGeometrique.o: src/FigureGeometrique.cpp.o
 
 # target to build an object file
 src/FigureGeometrique.cpp.o:
-	$(MAKE) -f CMakeFiles/main_test.out.dir/build.make CMakeFiles/main_test.out.dir/src/FigureGeometrique.cpp.o
+	$(MAKE) -f CMakeFiles/main.out.dir/build.make CMakeFiles/main.out.dir/src/FigureGeometrique.cpp.o
 .PHONY : src/FigureGeometrique.cpp.o
 
 src/FigureGeometrique.i: src/FigureGeometrique.cpp.i
@@ -138,7 +138,7 @@ src/FigureGeometrique.i: src/FigureGeometrique.cpp.i
 
 # target to preprocess a source file
 src/FigureGeometrique.cpp.i:
-	$(MAKE) -f CMakeFiles/main_test.out.dir/build.make CMakeFiles/main_test.out.dir/src/FigureGeometrique.cpp.i
+	$(MAKE) -f CMakeFiles/main.out.dir/build.make CMakeFiles/main.out.dir/src/FigureGeometrique.cpp.i
 .PHONY : src/FigureGeometrique.cpp.i
 
 src/FigureGeometrique.s: src/FigureGeometrique.cpp.s
@@ -147,7 +147,7 @@ src/FigureGeometrique.s: src/FigureGeometrique.cpp.s
 
 # target to generate assembly for a file
 src/FigureGeometrique.cpp.s:
-	$(MAKE) -f CMakeFiles/main_test.out.dir/build.make CMakeFiles/main_test.out.dir/src/FigureGeometrique.cpp.s
+	$(MAKE) -f CMakeFiles/main.out.dir/build.make CMakeFiles/main.out.dir/src/FigureGeometrique.cpp.s
 .PHONY : src/FigureGeometrique.cpp.s
 
 src/Ligne.o: src/Ligne.cpp.o
@@ -156,7 +156,7 @@ src/Ligne.o: src/Ligne.cpp.o
 
 # target to build an object file
 src/Ligne.cpp.o:
-	$(MAKE) -f CMakeFiles/main_test.out.dir/build.make CMakeFiles/main_test.out.dir/src/Ligne.cpp.o
+	$(MAKE) -f CMakeFiles/main.out.dir/build.make CMakeFiles/main.out.dir/src/Ligne.cpp.o
 .PHONY : src/Ligne.cpp.o
 
 src/Ligne.i: src/Ligne.cpp.i
@@ -165,7 +165,7 @@ src/Ligne.i: src/Ligne.cpp.i
 
 # target to preprocess a source file
 src/Ligne.cpp.i:
-	$(MAKE) -f CMakeFiles/main_test.out.dir/build.make CMakeFiles/main_test.out.dir/src/Ligne.cpp.i
+	$(MAKE) -f CMakeFiles/main.out.dir/build.make CMakeFiles/main.out.dir/src/Ligne.cpp.i
 .PHONY : src/Ligne.cpp.i
 
 src/Ligne.s: src/Ligne.cpp.s
@@ -174,35 +174,116 @@ src/Ligne.s: src/Ligne.cpp.s
 
 # target to generate assembly for a file
 src/Ligne.cpp.s:
-	$(MAKE) -f CMakeFiles/main_test.out.dir/build.make CMakeFiles/main_test.out.dir/src/Ligne.cpp.s
+	$(MAKE) -f CMakeFiles/main.out.dir/build.make CMakeFiles/main.out.dir/src/Ligne.cpp.s
 .PHONY : src/Ligne.cpp.s
 
-src/main_test.o: src/main_test.cpp.o
+src/PolygoneRegulier.o: src/PolygoneRegulier.cpp.o
 
-.PHONY : src/main_test.o
+.PHONY : src/PolygoneRegulier.o
 
 # target to build an object file
-src/main_test.cpp.o:
-	$(MAKE) -f CMakeFiles/main_test.out.dir/build.make CMakeFiles/main_test.out.dir/src/main_test.cpp.o
-.PHONY : src/main_test.cpp.o
+src/PolygoneRegulier.cpp.o:
+	$(MAKE) -f CMakeFiles/main.out.dir/build.make CMakeFiles/main.out.dir/src/PolygoneRegulier.cpp.o
+.PHONY : src/PolygoneRegulier.cpp.o
 
-src/main_test.i: src/main_test.cpp.i
+src/PolygoneRegulier.i: src/PolygoneRegulier.cpp.i
 
-.PHONY : src/main_test.i
+.PHONY : src/PolygoneRegulier.i
 
 # target to preprocess a source file
-src/main_test.cpp.i:
-	$(MAKE) -f CMakeFiles/main_test.out.dir/build.make CMakeFiles/main_test.out.dir/src/main_test.cpp.i
-.PHONY : src/main_test.cpp.i
+src/PolygoneRegulier.cpp.i:
+	$(MAKE) -f CMakeFiles/main.out.dir/build.make CMakeFiles/main.out.dir/src/PolygoneRegulier.cpp.i
+.PHONY : src/PolygoneRegulier.cpp.i
 
-src/main_test.s: src/main_test.cpp.s
+src/PolygoneRegulier.s: src/PolygoneRegulier.cpp.s
 
-.PHONY : src/main_test.s
+.PHONY : src/PolygoneRegulier.s
 
 # target to generate assembly for a file
-src/main_test.cpp.s:
-	$(MAKE) -f CMakeFiles/main_test.out.dir/build.make CMakeFiles/main_test.out.dir/src/main_test.cpp.s
-.PHONY : src/main_test.cpp.s
+src/PolygoneRegulier.cpp.s:
+	$(MAKE) -f CMakeFiles/main.out.dir/build.make CMakeFiles/main.out.dir/src/PolygoneRegulier.cpp.s
+.PHONY : src/PolygoneRegulier.cpp.s
+
+src/ViewerFigures.o: src/ViewerFigures.cpp.o
+
+.PHONY : src/ViewerFigures.o
+
+# target to build an object file
+src/ViewerFigures.cpp.o:
+	$(MAKE) -f CMakeFiles/main.out.dir/build.make CMakeFiles/main.out.dir/src/ViewerFigures.cpp.o
+.PHONY : src/ViewerFigures.cpp.o
+
+src/ViewerFigures.i: src/ViewerFigures.cpp.i
+
+.PHONY : src/ViewerFigures.i
+
+# target to preprocess a source file
+src/ViewerFigures.cpp.i:
+	$(MAKE) -f CMakeFiles/main.out.dir/build.make CMakeFiles/main.out.dir/src/ViewerFigures.cpp.i
+.PHONY : src/ViewerFigures.cpp.i
+
+src/ViewerFigures.s: src/ViewerFigures.cpp.s
+
+.PHONY : src/ViewerFigures.s
+
+# target to generate assembly for a file
+src/ViewerFigures.cpp.s:
+	$(MAKE) -f CMakeFiles/main.out.dir/build.make CMakeFiles/main.out.dir/src/ViewerFigures.cpp.s
+.PHONY : src/ViewerFigures.cpp.s
+
+src/ZoneDessin.o: src/ZoneDessin.cpp.o
+
+.PHONY : src/ZoneDessin.o
+
+# target to build an object file
+src/ZoneDessin.cpp.o:
+	$(MAKE) -f CMakeFiles/main.out.dir/build.make CMakeFiles/main.out.dir/src/ZoneDessin.cpp.o
+.PHONY : src/ZoneDessin.cpp.o
+
+src/ZoneDessin.i: src/ZoneDessin.cpp.i
+
+.PHONY : src/ZoneDessin.i
+
+# target to preprocess a source file
+src/ZoneDessin.cpp.i:
+	$(MAKE) -f CMakeFiles/main.out.dir/build.make CMakeFiles/main.out.dir/src/ZoneDessin.cpp.i
+.PHONY : src/ZoneDessin.cpp.i
+
+src/ZoneDessin.s: src/ZoneDessin.cpp.s
+
+.PHONY : src/ZoneDessin.s
+
+# target to generate assembly for a file
+src/ZoneDessin.cpp.s:
+	$(MAKE) -f CMakeFiles/main.out.dir/build.make CMakeFiles/main.out.dir/src/ZoneDessin.cpp.s
+.PHONY : src/ZoneDessin.cpp.s
+
+src/main.o: src/main.cpp.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/main.out.dir/build.make CMakeFiles/main.out.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/main.out.dir/build.make CMakeFiles/main.out.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/main.out.dir/build.make CMakeFiles/main.out.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -212,16 +293,25 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... main_test.out"
+	@echo "... main.out"
 	@echo "... src/FigureGeometrique.o"
 	@echo "... src/FigureGeometrique.i"
 	@echo "... src/FigureGeometrique.s"
 	@echo "... src/Ligne.o"
 	@echo "... src/Ligne.i"
 	@echo "... src/Ligne.s"
-	@echo "... src/main_test.o"
-	@echo "... src/main_test.i"
-	@echo "... src/main_test.s"
+	@echo "... src/PolygoneRegulier.o"
+	@echo "... src/PolygoneRegulier.i"
+	@echo "... src/PolygoneRegulier.s"
+	@echo "... src/ViewerFigures.o"
+	@echo "... src/ViewerFigures.i"
+	@echo "... src/ViewerFigures.s"
+	@echo "... src/ZoneDessin.o"
+	@echo "... src/ZoneDessin.i"
+	@echo "... src/ZoneDessin.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 
